@@ -5,6 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
+    "prebuild": "npm install",
     "build": "tsc",
     "start": "node dist/server.js",
     "db:migrate": "node scripts/migrate.js",
