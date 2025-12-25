@@ -1,0 +1,18 @@
+# Cursor ignore file
+# Files listed here will be ignored by Cursor's AI features
+# but can still be edited manually
+
+# Allow .env files to be editable (comment out to enable)
+# .env
+# .env.local
+# .env*.local
+
+# Other ignores
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+
+
